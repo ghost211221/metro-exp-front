@@ -1,0 +1,10 @@
+{
+  "name": "metrologic_expertise",
+  "version": "1.0.0",
+  "description": "Heroku App",
+  "author": "ghost21",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm install express"
+  }
+}
