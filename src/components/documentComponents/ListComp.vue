@@ -6,10 +6,10 @@
     :class="class_"
   >
     <li v-for="child in children_" :key="child.id"
-      :ref_="child.ref"
-      :id_="child.id"
-      :style_="child.style"
-      :class_="child.class"
+      :ref="child.ref"
+      :id="child.id"
+      :style="child.style"
+      :class="child.class"
       v-on:mousedown="onmousedown"
       v-on:mouseup="onmouseup"
     >
