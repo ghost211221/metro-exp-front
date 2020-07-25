@@ -41,7 +41,7 @@ export default {
     return {
       showInitFileDialog: false,
       selectedFile: null,
-      API: ' ghost2112.pythonanywhere.com',
+      API: 'http://ghost2112.pythonanywhere.com',
       documentHTML: '',
       showDocumentText: false,
       documentID: 0,
