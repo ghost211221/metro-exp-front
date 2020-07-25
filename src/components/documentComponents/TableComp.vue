@@ -9,10 +9,10 @@
     <tr v-for="row in children_" :key="row.id">
       <td v-for="cell in row.children"
         :key="cell.id"
-        :ref_="cell.ref"
-        :id_="cell.id"
-        :style_="cell.style"
-        :class_="cell.class"
+        :ref="cell.ref"
+        :id="cell.id"
+        :style="cell.style"
+        :class="cell.class"
         v-on:mousedown="onmousedown"
         v-on:mouseup="onmouseup"
       >
