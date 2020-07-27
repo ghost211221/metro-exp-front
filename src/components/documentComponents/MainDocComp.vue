@@ -131,6 +131,7 @@ export default {
   .page {
       width: 790pt;
       background-color: white;
+      padding: 100px;
   }
   
   .text-document {
