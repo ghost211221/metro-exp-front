@@ -13,6 +13,8 @@
         :id="cell.id"
         :style="cell.style"
         :class="cell.class"
+        :colspan="cell.colspan"
+        :rowspan="cell.rowspan"
         v-on:mousedown="onmousedown"
         v-on:mouseup="onmouseup"
       >
