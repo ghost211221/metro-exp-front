@@ -85,10 +85,11 @@ export default {
     canShowFileDialog () {
       return this.showInitFileDialog
     },
-    onTextSelected (selectedText, showModal) {
+    onTextSelected (selectedText, showModal, firstEl) {
       if (showModal && selectedText !== '') {
         this.isModalVisible = showModal        
       }
+      this.firstEl = firstEl
       this.textModalInit = selectedText
       this.textModalEdit = selectedText
     },

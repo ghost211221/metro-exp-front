@@ -17,7 +17,7 @@ export const SelectionsMixin = {
     onmouseup (event) {
       this.secondEl = event.target.className
       this.highlight()
-      this.$emit('textSelected', window.getSelection().toString(), true)
+      this.$emit('textSelected', window.getSelection().toString(), true, this.firstEl)
     },
     getSelectedRange () {
       if (window.getSelection) {

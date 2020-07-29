@@ -108,8 +108,8 @@ export default {
   },
 
   methods: {
-    onTextSelected (selectedText, showModal) {
-      this.$emit('textSelected', selectedText, showModal)
+    onTextSelected (selectedText, showModal, firstEl) {
+      this.$emit('textSelected', selectedText, showModal, firstEl)
     },
     onAddedSpan (spanId) {
       this.$emit('addedSpan', spanId)
