@@ -11,7 +11,8 @@ export const SelectionsMixin = {
   },
   methods: {
     onmousedown (event) {
-      this.firstEl = event.target.className
+      // this.firstEl = event.target.className
+      this.firstEl = event.target.id
       this.selectedId = event.target.id
     },
     onmouseup (event) {
